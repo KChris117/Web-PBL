@@ -1,0 +1,56 @@
+.card p{
+    margin-top: -10px;
+    margin-bottom: 1px;
+    }
+    .row .card:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transform: scale(1.02);
+    }
+    .carousel-item{
+    height: 400px;
+    }
+
+.button-primary {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    }
+
+.bi.bi-cart {
+    width: 25;
+    height: 30;
+}
+
+.section {
+    padding: 50px 100px;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: url(assets/img/beranda2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,mimax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+.home-text h1{
+    font-size: 3.4rem;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.home-text p{
+    font-size: 1.3rem;
+    color: var(--bg-color);
+    margin: 0.5rem 0 1.4rem;
+}
+
+.btn:hover{
+    background: grey;
+}
